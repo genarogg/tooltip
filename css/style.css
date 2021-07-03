@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/background.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  min-height: 90vh;
+  background-position: center;
+  font-family: Lato, sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 350px;
+  height: 200px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  background-color: #000;
+  padding: 10px;
+  border-radius: 2px;
+  color: rgb(166, 34, 255);
+  font-weight: bold;
+  font-size: 16px;
+}
